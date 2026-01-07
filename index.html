@@ -7,16 +7,21 @@
     <title>SHOWROOM MOBIL</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- fonts -->
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
 
-    <!-- icons -->
+   
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <!-- navbar start -->
+   
+<div id="loader">
+  <div class="loader-logo">showroom<span>Mobil</span></div>
+</div>
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
     <nav class="navbar">
         <a href="#" class="navbar-logo">showroom<span>Mobil</span>.</a>
 
@@ -33,27 +38,25 @@
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
 
-        <!-- navbar start -->
+       
         <div class="search-form">
             <input type="search" id="search-box" placeholder="search here ....">
             <label for="search-box"><i data-feather="search"></i></label>
         </div>
-        <!-- navbar end -->
+    
     </nav>
-    <!-- navbar end -->
+   
 
-    <!-- hero section start -->
-    <section class="hero" id="home">
+    
+    <section class="hero reveal" id="home">
         <main class="content">
             <h1>Mari beli mobil <span>kami</span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error maxime ab corrupti aliquid tenetur dolore.</p>
             <a href="#" class="cta">Beli Sekarang</a>
         </main>
     </section>
-    <!-- hero section end -->
-
-    <!-- about section start -->
-    <section id="about" class="about">
+ 
+    <section id="about" class="about reveal">
         <h2><span>Tentang</span> Kami</h2>
 
         <div class="row">
@@ -67,40 +70,40 @@
             </div>
         </div>
     </section>
-    <!-- about section end -->
-
-    <!-- Menu Section start -->
-    <section id="menu" class="menu">
+    
+    <section id="menu" class="menu reveal">
         <h2><span>Mobil</span> Kami</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae eius mollitia praesentium, quo rem soluta qui deleniti necessitatibus. Corrupti.</p>
 
         <div class="row">
-            <div class="menu-card">
+            <div class="menu-card reveal">
+                 <div class="card-frame"></div>
                 <img src="img/ae3beac44b7b02854a39cb8b82377939.jpeg" alt="" class="menu-card-img">
-                <h3 class="menu-card-tittle">BMW</h3>
+                <h3 class="menu-card-title">BMW</h3>
                 <p class="menu-card-price">IDR 900jt</p>
             </div>
-            <div class="menu-card">
+            <div class="menu-card reveal">
+                 <div class="card-frame"></div>
                 <img src="img/ae3beac44b7b02854a39cb8b82377939.jpeg" alt="" class="menu-card-img">
-                <h3 class="menu-card-tittle">BMW</h3>
+                <h3 class="menu-card-title">BMW</h3>
                 <p class="menu-card-price">IDR 900jt</p>
             </div>
-            <div class="menu-card">
+            <div class="menu-card reveal">
+                 <div class="card-frame"></div>
                 <img src="img/ae3beac44b7b02854a39cb8b82377939.jpeg" alt="" class="menu-card-img">
-                <h3 class="menu-card-tittle">BMW</h3>
+                <h3 class="menu-card-title">BMW</h3>
                 <p class="menu-card-price">IDR 900jtK</p>
             </div>
-            <div class="menu-card">
+            <div class="menu-card reveal">
+                 <div class="card-frame"></div>
                 <img src="img/ae3beac44b7b02854a39cb8b82377939.jpeg" alt="" class="menu-card-img">
-                <h3 class="menu-card-tittle">BMW</h3>
+                <h3 class="menu-card-title">BMW</h3>
                 <p class="menu-card-price">IDR 900jtK</p>
             </div>
         </div>
     </section>
-    <!-- Menu Section end -->
-
-    <!-- Contact section start -->
-    <section id="contact" class="contact">
+    
+    <section id="contact" class="contact reveal">
         <h2><span>Kontak</span> Kami</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, laboriosam.</p>
 
@@ -124,9 +127,7 @@
             </form>
         </div>
     </section>
-    <!-- Contact section end -->
-    
-    <!-- footer start  -->
+   
     <footer>
         <div class="socials">
             <a href="https://www.instagram.com/faik_dewantara_saputra?igsh=MWw3N2ZraWxtNmlmeA=="><i data-feather="instagram"></i></a>
@@ -145,15 +146,14 @@
             <p>Created by <a href="https://github.com/almunawar12">FAIQUR ROHMAN</a>. | &copy; 2025.</p>
         </div>
     </footer>
-    <!-- footer end  -->
-
-
-    <!-- icons -->
+    
     <script>
         feather.replace()
     </script>
 
-    <!-- javascript -->
+  
     <script src="js/script.js"></script>
+<audio id="hover-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-modern-click-box-check-1120.mp3"></audio>
+
 </body>
 </html>
